@@ -1,6 +1,7 @@
 ## Multi-Client Chat Application
 
 **Version:** v1.0.0
+
 **Status:** Stable
 
 ### About The Project
