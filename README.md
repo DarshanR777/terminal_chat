@@ -1,8 +1,8 @@
-# Multi-Client Chat Application
+## Multi-Client Chat Application
 
 **Version:** v1.0.0
 
-## About The Project
+### About The Project
 
 This project is a Linux-based multi-client chat application developed in C using TCP/IP socket programming and POSIX threads.
 
@@ -12,7 +12,7 @@ The primary objective of this project was to gain practical experience with Linu
 
 ---
 
-## Features
+### Features
 
 * Multi-client support
 * Real-time message broadcasting
@@ -24,7 +24,7 @@ The primary objective of this project was to gain practical experience with Linu
 
 ---
 
-## Technologies Used
+### Technologies Used
 
 * C Programming Language
 * Linux System Programming
@@ -34,7 +34,7 @@ The primary objective of this project was to gain practical experience with Linu
 
 ---
 
-## Project Structure
+### Project Structure
 
 ```text
 .
@@ -47,15 +47,15 @@ The primary objective of this project was to gain practical experience with Linu
 
 ---
 
-## Compilation
+### Compilation
 
-### Server
+#### Server
 
 ```bash
 gcc Server/server.c -I. -o server -lpthread
 ```
 
-### Client
+#### Client
 
 ```bash
 gcc Client/client.c -I. -o client -lpthread
@@ -63,7 +63,7 @@ gcc Client/client.c -I. -o client -lpthread
 
 ---
 
-## Running
+### Running
 
 Start the server:
 
@@ -81,23 +81,11 @@ Enter a username when prompted and begin chatting.
 
 ---
 
-## Version
+### Future Enhancements
 
-Current Version: **v1.0.0**
-
+* Private messaging, User authentication, Chat rooms, File transfer support, Message logging and End-to-end encryption
 ---
 
-## Future Enhancements
+#### Author
 
-* Private messaging
-* User authentication
-* Chat rooms
-* File transfer support
-* Message logging
-* End-to-end encryption
-
----
-
-## Author
-
-Darshan Gowda
+Darshan Gowda R
